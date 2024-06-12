@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ProcedureActivity"
+    tools:showIn="@layout/activity_procedure">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#adfcbd"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flower" />
+
+                <com.nexzen.sycongsm.customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="18dp"
+                    android:text="सायकॉन GSM 2300 मोबाईल ऑटोस्विच वरून मोटर चालू – बंद करावयाची पद्धत:"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="१) मोबाईल ऑटोस्विचने मोटर चालू करण्यासाठी, सायकॉन GSM 2300 मोबाईल ऑटोस्विचला फोन करा, दोन रिंग वाजल्यानंतर मोबाईल ऑटोस्विच आपला फोन उचलेल व मोबाईलने मोटर चालू/बंद करणेच्या सुचनांची माहिती सांगेल. सर्व सुचना ऐकल्यानंतर, आपल्या फोनवरून ४ नंबर दावून मोटर चालू करा, सायकॉन GSM 2300 मोबाईल ऑटोस्विचवरून पुढील माहिती सांगेल"/>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:background="@color/light_gray"
+
+                android:lineSpacingExtra="10dp"
+                android:text="नमस्कार, ऑटोस्विच टायमरमध्ये आहे."/>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="व सेट केलेल्या वेळाप्रमाणे (१ मिनीटानंतर) मोटर आपोआप चालू होईल."/>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="२) मोबाईल फोनने मोटर बंद करावयाची असल्यास सायकॉन GSM 2300 मोबाईल ऑटोस्विचला फोन करा, दोन रिंग वाजल्यानंतर GSM 2300 मोबाईल ऑटोस्विच आपला फोन उचलेल व माहिती सांगेल त्यानंतर ६ नंबर दावा, सायकॉन GSM 2300 मोबाईल ऑटोस्विचवरून..."/>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:background="@color/light_gray"
+                android:lineSpacingExtra="10dp"
+                android:text="नमस्कार, आपली मोटर बंद झाली आहे." />
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="अशी माहीती सांगून मोटर आपोआप बंद होईल."/>
+
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="३) मोटरची स्थिती जाणून घेण्यासाठी सायकॉन GSM 2300 मोबाईल ऑटोस्विचला फोन करा, दोन रिंग वाजल्यानंतर GSM 2300 मोबाईल ऑटोस्विच आपला फोन उचलेल व माहिती सांगेल त्यानंतर५ नंबर दावा, सायकॉन GSM 2300 मोबाईल ऑटोस्विच मोटरच्या स्थितीनुसार पुढील प्रमाणे माहिती देईल."/>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_margin="10dp"
+                android:textSize="16dp"
+                android:background="@color/light_gray"
+                android:text="नमस्कार, आपली मोटर सिंगल फेजींगमुळे बंद आहे.\n किंवा \n नमस्कार, आपली मोटर डायरनमुळे बंद आहे.\n  किंवा \n नमस्कार, आपली मोटर ओव्हरलोडमुळे बंद आहे. \n किंवा \n नमस्कार, आपली मोटर स्टार्टरच्या दोषामुळे बंद आहे."/>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="(स्टार्टरमधील ओव्हरलोड रिले टिप झाला असल्यास किंवा सायकॉन GSM 2300 मोबाईल ऑटोस्विचच्या सी टी पाईपमधून मेन सप्लायची वायर पास केली नसल्यास हा मॅसेज येतो.)"/>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="16dp"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="४) सायकॉन GSM 2300 मोबाईल ऑटोस्विच कॉल उचलत नसेल व नुसतीच रिंग होत असेल तर बटरी पूर्ण डीसचार्ज झाली असल्याची शक्यता असते तेंव्हा १०-१५ मिनिट ऑटो व बॅटरी चालू ठेवावा. नंतर ऑटोस्विच बंद करून पुन:चालू करावा."/>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="५) एस.एम.एस. वरून मोटर चालू करण्याकरिता GSM 2300 मोबाईल ऑटोस्विचला MON4 असा एस.एम.एस. पाठवावा."/>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="६) एस.एम.एस. वरून मोटर बंद करण्याकरिता GSM 2300 मोबाईल ऑटोस्विचला MOF6 असा एस.एम.एस. पाठवावा."/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#adfcbd"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flower" />
+
+                <com.nexzen.sycongsm.customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="18dp"
+                    android:text="बैंक कॉल व बँक एस. एम. एस. येण्यासाठी नंबर रजिस्टर कसा करावयाचा व एस. एम. एस. वरून मोटर चालू - बंद कशी करायची यासाठीच्या सुचना"
+                    android:textColor="#000" />
+
+            </LinearLayout>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="१) बँक कॉल येण्यासाठी, बैंक कॉल ज्या फोनवर यायला हवा, तो नंबर GSM 2300 मोबाईल ऑटोस्विच मध्ये प्रथम रजिस्टर करा व त्यासाठी RG******** (* च्या जागी रजिस्टर करावयाचा १० अंकी नंबर लिहावा) असा एस. एम. एस. GSM 2300 मोबाईल ऑटोस्विचला पाठवा."/>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="२) GSM 2300 मोबाईल ऑटोस्विच मधून तुम्हाला RG******** असा एस.एम.एस. (* च्या जागी रजिस्टर केलेला मोबाईल नंबर येईल)"/>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="३) बैंक एस. एम. एस. सुविधा चालू करण्यासाठी GSM 2300 मोबाईल ऑटोस्विचला SMSON असा एस. एम. एस. पाठवा. त्याचा तुम्हाला परत खालील प्रमाणे एस. एम. एस. येईल."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="16dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/sms_img" />
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="४) बॅक कॉलची सुविधा चालू करण्यासाठी GSM 2300 मोबाईल ऑटोस्विचला CALLON असा एस. एम. एस. पाठवा. त्याचा तुम्हाला परत वरील प्रमाणे एस. एम. एस. येईल. व त्यामध्ये CALLOFF च्या ठिकाणी CALLON दिसेल."/>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="५) बँक एस. एम. एस. सुविधा बंद करण्यासाठी GSM 2300 मोबाईल ऑटोस्विचला SMSOFF असा एस. एम. एस. पाठवा. त्याचा तुम्हाला परत वरील प्रमाणे एस. एम. एस. येईल. व त्यामध्ये SMSON च्या ठिकाणी SMSOFF दिसेल."/>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="६) बॅक कॉल सुविधा बंद करण्यासाठी GSM 2300 मोबाईल ऑटोस्विचला CALLOFF असा एस. एम. एस. पाठवा. त्याचा तुम्हाला परत वरील प्रमाणे एस. एम. एस. येईल. व त्यामध्ये CALLON च्या ठिकाणी CALLOFF दिसेल."/>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="16dp"
+                android:lineSpacingExtra="10dp"
+                android:text="७) बँक एस. एम. एस. सुविधा चालू असेल त्यावेळी मोबाईल वरून मोटर चालू केल्यानंतर तूम्हाला खालील प्रमाणे एस. एम. एस. येईल."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="32dp"
+                android:layout_marginBottom="16dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/description_point7_img" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#adfcbd"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flower" />
+
+                <com.nexzen.sycongsm.customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="18dp"
+                    android:text="आपली मोटर मोबाईलवरून ऑपरेट करण्याची माहीती"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/table1_img" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/table2_img" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#adfcbd"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flower" />
+
+                <com.nexzen.sycongsm.customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="18dp"
+                    android:text="एस.एम.एस. वरून मोटर ऑपरेट करण्याची माहीती"
+                    android:textColor="#000" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="512dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/table3_img" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

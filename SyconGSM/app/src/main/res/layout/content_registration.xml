@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".RegistrationActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:showIn="@layout/activity_registration">
+    <com.nexzen.sycongsm.customfonts.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="मोबाईल नंबर नोंदवा.!"/>
+    <com.nexzen.sycongsm.customfonts.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="मोबाईल ऑटोस्विच मधील मोबाईल नंबर व तुमचा मोबाईल नंबर ( ज्या नंबर वर मोटर ची माहिती घ्यावयाची आहे ) असे दोन्ही नंबर नोंदवा. "/>
+
+    <com.nexzen.sycongsm.customfonts.MyEditText
+        android:id="@+id/DeviceNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_square_with_border"
+        android:padding="10dp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:hint="मोबाईल ऑटोस्विच मधील मोबाईल नंबर"
+        android:layout_marginTop="10dp"/>
+
+    <com.nexzen.sycongsm.customfonts.MyEditText
+        android:id="@+id/MobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_square_with_border"
+        android:padding="10dp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:hint="तुमचा मोबाईल नंबर"
+        android:layout_marginTop="10dp"/>
+
+    <com.nexzen.sycongsm.customfonts.MyButton
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="नोंदणी करा"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rect_square_primery"/>
+</LinearLayout>

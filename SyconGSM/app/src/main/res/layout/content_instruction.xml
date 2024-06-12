@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".InstructionActivity"
+    tools:showIn="@layout/activity_instruction">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#adfcbd"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flower" />
+
+                <com.nexzen.sycongsm.customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="सायकॉन GSM 2300 मोबाईल ऑटोस्विच, स्टार्टरला जोडावयाची माहिती"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/starter_connection_info_img" />
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="10dp"
+                android:text="१) प्रथम मेन स्विच कडून स्टार्टरला जाणाऱ्या तिन वायर्सपैकी कोणतीही एक वायर सायकॉन GSM 2300 मोबाईल ऑटोस्विचला असणाऱ्या पाईप मधून व बाकी दोन वायर्स डायरेक्ट स्टार्टरच्या इनकमिंग टर्मिनलला जोडा."
+                android:textSize="16dp" />
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="10dp"
+                android:text="२) सायकॉन GSM 2300 मोबाईल ऑटोस्विच वरील R,Y व B लिहिलेल्या कनेक्टरमद्धे तीन वायर्स जोडून त्या वायर्स  स्टार्टरच्या इनकमिंग टर्मिनलला जोडा."
+                android:textSize="16dp" />
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="10dp"
+                android:text="३) सायकॉन GSM 2300 मोबाईल ऑटोस्विच वरील P2,P3 आणि P4 लिहिलेल्या कनेक्टरमद्धे तीन वायर जोडून त्या अनुक्रमे स्टार्टरच्या ओव्हरलोड रिले वरील  P2,P3 आणि P4 च्या ठिकाणी जोडा."
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#adfcbd"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flower" />
+
+                <com.nexzen.sycongsm.customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="स्टार्टर DOL असल्यास (तीन वायर्सची मोटर केबल असल्यास)"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="10dp"
+                android:text="१. स्टार्टरच्या ओव्हरलोड रिले वरील P2 आणि  P3 या दोन कनेक्शन मद्धे जोडलेली लाल रंगाची वायर काढा. हि वायर मोबाईल ऑटोस्विचच्या L लिहिलेल्या कनेक्शन मधून P3 लिहिलेल्या कनेक्शनमध्ये जोडा."
+                android:textSize="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#adfcbd"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="16dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/flower" />
+
+                <com.nexzen.sycongsm.customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="स्टार्टर STAR DELTA असल्यास (सहा वायर्सची मोटर केबल असल्यास)"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/star_delta_img" />
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="10dp"
+                android:text="१. स्टार्टरच्या ओव्हरलोड रिले वरील P2 आणि  P4 या दोन कनेक्शन मद्धे जोडलेली काळ्या रंगाची वायर काढा. हि वायर मोबाईल ऑटोस्विचच्या L लिहिलेल्या कनेक्शन मधून P4 लिहिलेल्या कनेक्शनमध्ये जोडा."
+                android:textSize="16dp" />
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="10dp"
+                android:text="२. सायकॉन GSM 2300 मोबाईल ऑटोस्विच सोबत दिलेला अँटेना ऑटोस्विचला उजव्या बाजूला असलेल्या अँटेना सॉकेटला बसावा."
+                android:textSize="16dp" />
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="10dp"
+                android:text="३. अँटेनाची पट्टी मीटर पेटीच्या बाहेर उंचावर चिकटवा."
+                android:textSize="16dp" />
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="10dp"
+                android:text="४. सर्व कनेक्शन पुन्हा एकदा बरोबर व घट्ट आवळल्याची खात्री करा."
+                android:textSize="16dp" />
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="10dp"
+                android:text="५. ऑटोस्विचला आर्थिंग जोड."
+                android:textSize="16dp" />
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="10dp"
+                android:text="६. सायकॉन GSM 2300 मोबाईल ऑटोस्विचच्या डाव्या बाजूस असणाऱ्या सीमकार्डच्या स्लॉट मद्धे तुमचे सिमकार्ड (फुल्ल रेंज असणारे) योग्य रीतीने बसावा."
+                android:textSize="16dp" />
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="10dp"
+                android:text="७. खालील फोटो नंबर १ मद्धे दाखवल्या प्रमाणे सायकॉन GSM 2300 मोबाईल ऑटोस्विच वरील AUTO/MAN बटन AUTO बाजूस असल्याची खात्री करून घ्या."
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/switch_buttom" />
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="10dp"
+                android:text="८. त्यानंतर मेन स्विच चालू करा."
+                android:textSize="16dp" />
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="10dp"
+                android:text="९. जर मोबाईल ऑटोस्विचवरील SPP लिहिलेला लाल दिवा लागल्यास मेन स्विच बंद करा आणि मोबाईल ऑटोस्विचवरील R व Y या कनेक्शनची अदलाबदल करा आणि पुन्हा मेन स्विच चालू करा."
+                android:textSize="16dp" />
+
+            <com.nexzen.sycongsm.customfonts.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="10dp"
+                android:text="१०. सुरवातीला MODEM चा LED 15 सेकंद चालू बंद होईल आणित्यानंतर तो सलग चालू राहील. "
+                android:textSize="16dp" />
+
+<!--            <com.nexzen.sycongsm.customfonts.MyTextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="10dp"-->
+<!--                android:lineSpacingExtra="10dp"-->
+<!--                android:text="११. त्यानंतर खालील फोटो नंबर २ मद्धे दाखवल्या प्रमाणे सायकॉन GSM 2300 मोबाईल ऑटोस्विच वरील BATTERY ON/OFF चे बटन ON बाजूस करा."-->
+<!--                android:textSize="16dp" />-->
+
+<!--            <ImageView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:layout_margin="16dp"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                android:scaleType="fitXY"-->
+<!--                android:src="@drawable/img2" />-->
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

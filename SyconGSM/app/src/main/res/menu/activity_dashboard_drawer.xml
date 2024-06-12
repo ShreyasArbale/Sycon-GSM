@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/features"
+            android:title="वैशिष्ठे" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_instruction"
+            android:icon="@drawable/settings"
+            android:title="स्टार्टरला जोडावयाची माहिती" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_procedure"
+            android:icon="@drawable/tap"
+            android:title="मोटर चालू-बंद करावयाची पद्धत" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_backCall"
+            android:icon="@drawable/settings"
+            android:title="बॅक कॉल " />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shedule"
+            android:icon="@drawable/tap"
+            android:title="सर्व शेड्युल पहा" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_re_register"
+            android:icon="@drawable/user"
+            android:title="पुन्हा नोंदणी करा" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/operator"
+            android:title="मदतीसाठी संपर्क" />
+    </group>
+
+
+
+
+</menu>

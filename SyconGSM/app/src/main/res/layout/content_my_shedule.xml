@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MySheduleActivity"
+    tools:showIn="@layout/activity_my_shedule">
+    <ListView
+        android:id="@+id/SheduleList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#FFF"
+        android:dividerHeight="5dp"></ListView>
+</LinearLayout>

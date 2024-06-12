@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".BackCallActivity"
+    tools:showIn="@layout/activity_back_call">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_square_with_border"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:lineSpacingExtra="8dp"
+            android:textSize="16dp"
+            android:text="बॅक कॉल सुविधा चालू/बंद करण्यासाठी खालील बटन चालू/बंद करा."/>
+        <Switch
+            android:id="@+id/OnOfAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:text="बंद आहे..!"/>
+    </LinearLayout>
+</LinearLayout>

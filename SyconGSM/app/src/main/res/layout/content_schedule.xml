@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScheduleActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:showIn="@layout/activity_schedule">
+    <com.nexzen.sycongsm.customfonts.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp"
+        android:text="शेड्युल नोंदवा.!"/>
+    <com.nexzen.sycongsm.customfonts.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="तुमची मोटर ठराविक दिवशी व ठराविक वेळेवर सुरु करण्यासाठी शेड्युल नोंदवा. "/>
+    <com.nexzen.sycongsm.customfonts.MyEditText
+        android:id="@+id/ScheduleDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_square_with_border"
+        android:padding="10dp"
+        android:inputType="number"
+        android:focusable="false"
+        android:visibility="gone"
+        android:maxLength="10"
+        android:hint="शेड्युल दिनांक निवडा"
+        android:layout_marginTop="10dp"/>
+    <com.nexzen.sycongsm.customfonts.MyEditText
+        android:id="@+id/ScheduleEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_square_with_border"
+        android:padding="10dp"
+        android:inputType="number"
+        android:focusable="false"
+        android:visibility="gone"
+        android:maxLength="10"
+        android:hint="शेड्युल दिनांक निवडा"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <com.nexzen.sycongsm.customfonts.MyEditText
+            android:id="@+id/StartTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rect_square_with_border"
+            android:padding="10dp"
+            android:focusable="false"
+            android:layout_marginRight="5dp"
+            android:hint="सुरु वेळ निवडा"
+            android:layout_marginTop="10dp"/>
+        <com.nexzen.sycongsm.customfonts.MyEditText
+            android:id="@+id/EndTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/rect_square_with_border"
+            android:padding="10dp"
+            android:focusable="false"
+            android:layout_marginLeft="5dp"
+            android:hint="बंद वेळ निवडा"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.nexzen.sycongsm.customfonts.MyEditText
+            android:id="@+id/ScheduleDateDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect_square_with_border"
+            android:padding="10dp"
+            android:inputType="number"
+            android:focusable="false"
+            android:maxLength="10"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:hint="चालू दिनांक निवडा"
+            android:layout_marginTop="10dp"/>
+        <com.nexzen.sycongsm.customfonts.MyEditText
+            android:id="@+id/StartTimeDisplay"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/rect_square_with_border"
+            android:padding="10dp"
+            android:focusable="false"
+            android:layout_marginLeft="5dp"
+            android:hint="सुरु वेळ निवडा"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.nexzen.sycongsm.customfonts.MyEditText
+            android:id="@+id/ScheduleEndDateDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect_square_with_border"
+            android:padding="10dp"
+            android:inputType="number"
+            android:focusable="false"
+            android:maxLength="10"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            android:hint="बंद दिनांक निवडा"
+            android:layout_marginTop="10dp"/>
+        <com.nexzen.sycongsm.customfonts.MyEditText
+            android:id="@+id/EndTimeDisplay"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/rect_square_with_border"
+            android:padding="10dp"
+            android:focusable="false"
+            android:layout_marginLeft="5dp"
+            android:hint="बंद वेळ निवडा"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_square_with_border"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:lineSpacingExtra="8dp"
+            android:textSize="16dp"
+            android:text="शेड्युल सुरु असताना लाईट गेल्यानंतर नोंदवलेल्या वेळेत बदल करून शिल्लक वेळेसाठी मोटर सुरु करण्याची अनुमती आहे का ?"/>
+        <Switch
+            android:id="@+id/RollAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:text="नाही..!"/>
+    </LinearLayout>
+
+
+    <com.nexzen.sycongsm.customfonts.MyButton
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="नोंदणी करा"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/rect_square_primery"/>
+</LinearLayout>

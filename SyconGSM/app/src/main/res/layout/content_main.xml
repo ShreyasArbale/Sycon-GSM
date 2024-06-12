@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/sycon_logo"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GSM"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_gravity="center_horizontal"
+        android:textSize="50dp"/>
+    <com.nexzen.sycongsm.customfonts.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="मोबाईल ऑटोस्विच"
+        android:textSize="25dp"
+        android:textColor="#0040c1"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="HardcodedText" />
+<!--    ऑटोस्विच-->
+</LinearLayout>
